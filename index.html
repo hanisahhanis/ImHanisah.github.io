@@ -1,0 +1,181 @@
+<!DOCTYPE html> 
+<html lang-"en">
+<head> 
+    <meta charset= "UTF-8"> 
+    <meta http-equiv-"X-UA-Compatible" content= "IE-edge"›
+    <meta content="width=device-width, initial-scale=1" name="viewport" />    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</heads>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#About">About</a></li>
+                <li><a href="#Services">Services</a></li>
+                <li><a href="#Portfolio">Portfolio</a></li>
+                <li><a href="#Contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="header-text">
+            <p>Software Engineer</p>
+            <h1>Hello, I'm <span>Hanis Hanisah.</span></h1>
+        </div>
+    </div>
+</div>
+<!----about-->
+<div id="About">
+    <div class="container">
+    <div class="row">
+        <div class="About-col-1"></div>
+        <div class="About-col-2">
+            <h1 class="sub-title">About Me</h1>
+            <p>self-taught programmer</p>
+
+            <div class="tab-titles">
+                <p class="tab-links active-link" onclick="opentab('Skills')">Skills</p>
+                <p class="tab-links" onclick="opentab('Experience')">Experience</p>
+                <p class="tab-links" onclick="opentab('Education')">Education</p>
+            </div>
+            <div class="tab-contents active-tab" id="Skills">
+                <ul>
+                    <li><span>Language</span><br>HTML<br>CSS<br>JavaScript<br>Python</li>
+                    <li><span>Web Development</span><br>Designing Web/App Interfaces</li>
+                    <li><span>JavaScript</span><br>Data Structures<br>Algorithm</li>
+                </ul>
+            </div>
+            <div class="tab-contents" id="Experience">
+                <ul>
+                    <li><span>2023</span><br>Build Personal Portfolio</li>
+                </ul>
+            </div>
+            <div class="tab-contents" id="Education">
+                <ul>
+                    <li><span>2023</span><br>FreeCodeCamp</li>
+                    <li><span>2023</span><br>Codecademy</li>
+                 </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!------------------services------------------------->
+<div id="Services">
+    <div class="container">
+        <h1 class="sub-title">Services</h1>
+        <div class="services-list">
+            <div>
+                <h2>Web Design</h2>
+                <p>Designed and developed user-friendly website, including optimized check-out page that increased user clicks, and subsequently customer purchase by 20%</p>
+                <a href="#">Learn More</a>
+            </div>
+            <div>
+                <h2>Front-End Developer</h2>
+                <p>Designed assessment forms for different customer stages that cut processing time by 30%</p>
+                <a href="#">Learn More</a>
+            </div>
+            <div>
+                <h2>Back-End Developer</h2>
+                <p>Assisted in resolving 90% of client technical issues through debugging and research</p>
+                <a href="#">Learn More</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-------------------Portfolio-------->
+
+<div id="Portfolio">
+    <div cass="container">
+        <h1 class="sub-title">Portfolio</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="iphone-13-pro-max-antelope-canyon-1yed2k5io27g2ltv.jpg">
+                <div class="layer">
+                    <h3>E-commerce Website</h3><!---projects -->
+                    <p>Replica of Shopify</p>
+                    <a href="#">view</a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="cebea102aa5964d64163e76b31f725dd.jpg">
+                <div class="layer">
+                    <h3>Python Projects</h3>
+                    <p>Object-Oriented Programming (OOP) Bank Account</p> <!---projects -->
+                        <a href="bank_accounts.py">view</a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="orange-and-grey-tabby-cats-wallpaper-preview.jpg">
+                <div class="layer">
+                    <h3>CRUD Application</h3> <!---projects -->
+                    <p>MongoDB, Express, React, Node</p>
+                    <a href="#">View</a>
+                </div> 
+            </div>
+        </div>
+        <a href="#" class="btn">See More</a>
+    </div>
+</div>
+
+<!----------contact----------------->
+<div id="Contact">
+  <div class="container">
+      <div class="row">
+        <div class="contact-left">
+            <h1 class="">Contact</h1>
+            <p>hanishanisah001@gmail.com</p>
+            <a href="Copy of Computer_Science_Resume.docx.pdf" download class="btn btn2">Download Resume</a> <!-----resume -->
+        </div>
+        <div class="contact-right">
+            <form name="submit-to-google-sheet">
+                <input type="text" name="Name" placeholder="Your Name" required>
+                <input type="email" name="Email" placeholder="Your Email required" >
+                <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                <button type="submit" class="btn btn2">Submit</button>
+            </form>
+            <span id="msg"></span>
+        </div>
+      </div>
+  </div>
+  <div class="copyright">
+    <p>Copyright @ Hanis Hanisah.</p>
+  </div>
+</div>
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+         for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");   
+         }
+         event.currentTarget.classList.add("active-link");
+         document.getElementById(tabname).classList.add("active-tab");
+    }
+
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbzk7CJzxT4UXres3hjtP38N8e3_pSK5PGEy56Y9OWhDegkDOqD4glVee4g6fE13Mh70/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message Sent...Woohooooooooo!"
+            setTimeout(function(){
+                msg.innerHTML = ""
+                },5000)
+                form.reset()     
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
