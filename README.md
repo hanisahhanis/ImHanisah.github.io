@@ -44,7 +44,9 @@ Contact
 Feel free to reach out if you have any questions or just want to say hello:
 
 Email: hanishanisah001@gmail.com 
+
 LinkedIn: Hanis H
+
 Twitter: @ponyo_code
 
 Thank you for visiting my personal website! 🚀
