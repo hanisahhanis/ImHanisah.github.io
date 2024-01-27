@@ -19,10 +19,13 @@ This website is a representation of me and my journey. Here, you'll find informa
 Features
 
 Portfolio: Explore my projects and get an overview of my skills and achievements.
+
 Blog on X : Read my journey on X in Japanese.
+
 Contact: Reach out to me easily through the provided contact information.
+
 Responsive Design: The website is designed to work seamlessly on various devices.
-Getting Started
+
 
 Technologies Used
 
