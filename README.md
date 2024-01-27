@@ -25,6 +25,7 @@ Responsive Design: The website is designed to work seamlessly on various devices
 Getting Started
 
 Technologies Used
+
 HTML5
 CSS
 JavaScript
