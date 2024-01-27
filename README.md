@@ -7,9 +7,13 @@ Welcome to my personal website! This space serves as a showcase of my work, inte
 Table of Contents
 
 Introduction
+
 Features
+
 Getting Started
+
 Technologies Used
+
 Contact
 
 Introduction
