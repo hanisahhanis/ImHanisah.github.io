@@ -20,7 +20,7 @@ This website is a representation of my journey, showcasing my professional backg
 
 ## Features
 
-- **Portfolio:** Explore my projects and certificates to get an overview of my skills and achievements.
+- **Portfolio:** Explore my projects, certificates and resume to get an overview of my skills and achievements.
 - **Blog on X:** Read about my journey in X (written in Japanese).
 - **Contact:** Easily reach out to me through the provided contact information.
 - **Responsive Design:** The website is designed to work seamlessly on various devices.
