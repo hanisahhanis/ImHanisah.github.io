@@ -31,7 +31,7 @@ Feel free to explore my website [ImHanisah.github.io](https://hanisahhanis.githu
 
 ## Technologies Used
 
-- HTML
+- HTML5
 - CSS
 - JavaScript
 
