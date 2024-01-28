@@ -20,7 +20,7 @@ This website is a representation of my journey, showcasing my professional backg
 
 ## Features
 
-- **Portfolio:** Explore my projects to get an overview of my skills and achievements.
+- **Portfolio:** Explore my projects and certificates to get an overview of my skills and achievements.
 - **Blog on X:** Read about my journey in X (written in Japanese).
 - **Contact:** Easily reach out to me through the provided contact information.
 - **Responsive Design:** The website is designed to work seamlessly on various devices.
@@ -31,7 +31,7 @@ Feel free to explore my website [ImHanisah.github.io](https://hanisahhanis.githu
 
 ## Technologies Used
 
-- HTML5
+- HTML
 - CSS
 - JavaScript
 
@@ -42,8 +42,8 @@ If you find any issues or have suggestions for improvement, please feel free to 
 Feel free to reach out if you have any questions or just want to say hello:
 
 - Email: hanishanisah001@gmail.com
-- LinkedIn: [Hanis H](#)
-- Twitter: [@ponyo_code](#)
+- LinkedIn: [Hanis H](https://www.linkedin.com/in/hanis-h?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BvNqVS5XdTlOPBwD%2FQPdLdg%3D%3D)
+- Twitter: [@ponyo_code](https://twitter.com/ponyo_code)
 
 Thank you for visiting my personal website! 🚀
 
