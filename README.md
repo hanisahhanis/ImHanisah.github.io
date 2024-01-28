@@ -1,57 +1,49 @@
 # ImHanisah.github.io
 
-Personal Website
+# Welcome to My Personal Website!
 
-Welcome to my personal website! This space serves as a showcase of my work, interests, and a little bit about who I am. Feel free to explore and get to know me better. https://hanisahhanis.github.io/ImHanisah.github.io/
+Explore my professional journey, projects, and passions on my personal website. Get to know me better and feel free to connect.
 
-Table of Contents
+Visit [ImHanisah.github.io](https://hanisahhanis.github.io/ImHanisah.github.io/)
 
-Introduction
+## Table of Contents
 
-Features
+- [Introduction](#introduction)
+- [Features](#features)
+- [Getting Started](#getting-started)
+- [Technologies Used](#technologies-used)
+- [Contact](#contact)
 
-Getting Started
+## Introduction
 
-Technologies Used
+This website is a representation of my journey, showcasing my professional background, projects, and passions. It serves as a platform to share experiences and connect with like-minded individuals.
 
-Contact
+## Features
 
-Introduction
+- **Portfolio:** Explore my projects to get an overview of my skills and achievements.
+- **Blog on X:** Read about my journey in X (written in Japanese).
+- **Contact:** Easily reach out to me through the provided contact information.
+- **Responsive Design:** The website is designed to work seamlessly on various devices.
 
-This website is a representation of me and my journey. Here, you'll find information about my professional background, projects I've worked on, and my passions. It's a platform where I share my experiences and connect with like-minded individuals.
+## Getting Started
 
-Features
+Feel free to explore my website [ImHanisah.github.io](https://hanisahhanis.github.io/ImHanisah.github.io/) and learn more about my journey, projects, and interests.
 
-Portfolio: Explore my projects and get an overview of my skills and achievements.
+## Technologies Used
 
-Blog on X : Read my journey on X in Japanese.
-
-Contact: Reach out to me easily through the provided contact information.
-
-Responsive Design: The website is designed to work seamlessly on various devices.
-
-
-Technologies Used
-
-HTML5
-CSS
-JavaScript
+- HTML5
+- CSS
+- JavaScript
 
 If you find any issues or have suggestions for improvement, please feel free to open an issue or submit a pull request. Your contributions are highly appreciated!
 
-Contact
+## Contact
 
 Feel free to reach out if you have any questions or just want to say hello:
 
-Email: hanishanisah001@gmail.com 
-
-LinkedIn: Hanis H
-
-Twitter: @ponyo_code
+- Email: hanishanisah001@gmail.com
+- LinkedIn: [Hanis H](#)
+- Twitter: [@ponyo_code](#)
 
 Thank you for visiting my personal website! 🚀
-
-
-
-
 
