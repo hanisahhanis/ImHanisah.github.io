@@ -30,7 +30,7 @@
     <div class="row">
         <div class="About-col-1"></div>
         <div class="About-col-2">
-            <h1 class="sub-title">About Me</h1>
+            <h1 class="sub-title">About me</h1>
             <p>self-taught programmer</p>
 
             <div class="tab-titles">
@@ -67,17 +67,17 @@
         <div class="services-list">
             <div>
                 <h2>Web Design</h2>
-                <p>Designed and developed user-friendly website, including optimized check-out page that increased user clicks, and subsequently customer purchase by 20%</p>
+                <p>I bring creativity and precision to web design, crafting visually stunning and user-friendly websites that elevate brands. With a keen eye for detail and a passion for innovation, I ensure every digital experience I create leaves a lasting impact.</p>
                 <a href="#">Learn More</a>
             </div>
             <div>
                 <h2>Front-End Developer</h2>
-                <p>Designed assessment forms for different customer stages that cut processing time by 30%</p>
+                <p>As a Front-End Developer, I specialize in transforming design concepts into responsive and interactive websites, ensuring a seamless user experience across various devices. My proficiency in HTML, CSS, and JavaScript, coupled with a commitment to clean and efficient code, empowers me to bring compelling digital visions to life.</p>
                 <a href="#">Learn More</a>
             </div>
             <div>
                 <h2>Back-End Developer</h2>
-                <p>Assisted in resolving 90% of client technical issues through debugging and research</p>
+                <p>As a Backend Developer, I excel in architecting robust and scalable server-side solutions that power dynamic web applications. My expertise in languages such as Python and proficiency in database management make me adept at crafting efficient, secure, and high-performance backends.</p>
                 <a href="#">Learn More</a>
             </div>
         </div>
@@ -87,15 +87,15 @@
 <!-------------------Portfolio-------->
 
 <div id="Portfolio">
-    <div cass="container">
+    <div class="container">
         <h1 class="sub-title">Portfolio</h1>
         <div class="work-list">
             <div class="work">
                 <img src="iphone-13-pro-max-antelope-canyon-1yed2k5io27g2ltv.jpg">
                 <div class="layer">
-                    <h3>E-commerce Website</h3><!---projects -->
-                    <p>Replica of Shopify</p>
-                    <a href="#">view</a>
+                    <h3>FreeCodeCamp</h3><!---projects -->
+                    <p>FreeCodeCamp Responsive Web Design Certificate</p>
+                    <a href="https://www.freecodecamp.org/certification/hanishanisah/responsive-web-design">view</a>
                 </div>
             </div>
             <div class="work">
@@ -103,21 +103,29 @@
                 <div class="layer">
                     <h3>Python Projects</h3>
                     <p>Object-Oriented Programming (OOP) Bank Account</p> <!---projects -->
-                        <a href="bank_accounts.py">view</a>
+                    <a href="https://github.com/hanisahhanis/Python.projects">view</a>
                 </div>
             </div>
+
             <div class="work">
                 <img src="orange-and-grey-tabby-cats-wallpaper-preview.jpg">
                 <div class="layer">
-                    <h3>CRUD Application</h3> <!---projects -->
-                    <p>MongoDB, Express, React, Node</p>
-                    <a href="#">View</a>
+                    <h3>FreeCodeCamp</h3> <!---projects -->
+                    <p>FreeCodeCamp JavaScript Algorithms and Data Structures Certificate</p>
+                    <a href="https://www.freecodecamp.org/certification/hanishanisah/javascript-algorithms-and-data-structures">View</a>
                 </div> 
             </div>
-        </div>
-        <a href="#" class="btn">See More</a>
+          
+            
+           
+    
+        </div>    
+   
     </div>
-</div>
+
+</div>    
+    <button onclick="showMore()" id="seeMoreBtn" class="btn">See More</button>
+
 
 <!----------contact----------------->
 <div id="Contact">
@@ -125,8 +133,8 @@
       <div class="row">
         <div class="contact-left">
             <h1 class="">Contact</h1>
-            <p>hanishanisah001@gmail.com</p>
-            <a href="Copy of Computer_Science_Resume.docx.pdf" download class="btn btn2">Download Resume</a> <!-----resume -->
+        
+            <a href="Resume .pdf" download class="btn btn2">Download Resume</a> <!-----resume -->
         </div>
         <div class="contact-right">
             <form name="submit-to-google-sheet">
@@ -159,6 +167,20 @@
     }
 
 </script>
+<script>
+    function showMore() {
+      var moreContent = document.getElementById("moreContent");
+      var seeMoreBtn = document.getElementById("seeMoreBtn");
+
+      if (moreContent.style.display === "none") {
+        moreContent.style.display = "block";
+        seeMoreBtn.innerHTML = "See Less";
+      } else {
+        moreContent.style.display = "none";
+        seeMoreBtn.innerHTML = "See More";
+      }
+    }
+  </script>
 <script>
     const scriptURL = 'https://script.google.com/macros/s/AKfycbyxXv_fRl2Gnbto-vumH4aMYtVO04MW6ToVajWvKDtW13IWL4cktUaWfAL_2DBV9zst/exec'
     const form = document.forms['submit-to-google-sheet']
