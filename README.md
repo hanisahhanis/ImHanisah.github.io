@@ -4,7 +4,7 @@
 
 Explore my professional journey, projects, and passions on my personal website. Get to know me better and feel free to connect.
 
-Visit [ImHanisah.github.io](https://hanisahhanis.github.io/ImHanisah.github.io/)
+Visit [ImHanisah.github.io](https://github.com/hanisahhanis/ImHanisah.github.io.git)
 
 ## Table of Contents
 
