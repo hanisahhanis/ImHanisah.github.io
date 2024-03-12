@@ -42,8 +42,7 @@ If you find any issues or have suggestions for improvement, please feel free to 
 Feel free to reach out if you have any questions or just want to say hello:
 
 - Email: hanishanisah001@gmail.com
-- LinkedIn: [Hanis H](https://www.linkedin.com/in/hanis-h?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BvNqVS5XdTlOPBwD%2FQPdLdg%3D%3D)
-- Twitter: [@ponyo_code](https://twitter.com/ponyo_code)
+- LinkedIn: [Hanis H](www.linkedin.com/in/hanis-h)
 
 Thank you for visiting my personal website! 🚀
 
